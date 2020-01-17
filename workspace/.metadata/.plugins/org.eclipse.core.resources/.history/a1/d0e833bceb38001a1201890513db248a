@@ -1,0 +1,6 @@
+package SarjilJavaClass;
+//Q4. Create an automation to handle username and password in your script where you are unable to
+//Inspect the element. You can use the same url we have used in class.
+public class ActionItem01_16 {
+
+}

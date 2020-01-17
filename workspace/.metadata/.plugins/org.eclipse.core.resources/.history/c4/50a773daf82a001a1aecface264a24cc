@@ -1,0 +1,179 @@
+package SarjilJavaClass;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class ActionItem_12_31 {
+//Q7. Using Switch Method Create a program where you have an artist(ex. Adele/Fall Out Boys/Bridge to Grace) 
+		//and List of songs/track. it should contain 17 songs/tracks. 
+		//You should modify the script in order to achieve the following in each run
+		//-Print all the songs/tracks.
+	 	//-Print Only songs/track 15  
+	 	//-Print Only songs/track 19
+	
+	public static void main(String[] args) {
+		
+	
+		
+	}
+	
+	ArrayList adelesong = new ArrayList(); 
+	ArrayList FallOutBoys = new ArrayList(); 
+	ArrayList BridgetoGrace = new ArrayList(); 
+	
+	public void artist (String artist, String song){
+		
+		this.adelesong.addAll(Arrays.asList("songtitle1", "songtitle2","songtitle3", "songtitle4","songtitle5", "songtitle6","songtitle7",
+				"songtitle8", "songtitle9","songtitle10","songtitle11", "songtitle12", "songtitle13","songtitle14","songtitle15","songtitle16","songtitle17"));
+		this.FallOutBoys.addAll(Arrays.asList("songtitle1", "songtitle2","songtitle3", "songtitle4","songtitle5", "songtitle6","songtitle7",
+				"songtitle8", "songtitle9","songtitle10","songtitle11", "songtitle12", "songtitle13","songtitle14","songtitle15","songtitle16","songtitle17"));
+		this.BridgetoGrace.addAll(Arrays.asList("songtitle1", "songtitle2","songtitle3", "songtitle4","songtitle5", "songtitle6","songtitle7",
+				"songtitle8", "songtitle9","songtitle10","songtitle11", "songtitle12", "songtitle13","songtitle14","songtitle15","songtitle16","songtitle17"));
+		
+		switch (artist){
+		
+		case "Adele":
+			switch(song)
+			{
+			case "allTitle":
+				for(int i=0; i<adelesong.size()-1; i++)
+				{
+					System.out.println(adelesong.get(i));
+				}
+			break;
+			case "Title1": System.out.println(adelesong.get(0));
+			break;
+			case "Title2": System.out.println(adelesong.get(1));
+			break;
+			case "Title3": System.out.println(adelesong.get(2));
+			break;
+			case "Title4": System.out.println(adelesong.get(3));
+			break;
+			case "Title5": System.out.println(adelesong.get(4));
+			break;
+			case "Title6": System.out.println(adelesong.get(5));
+			break;
+			case "Title7": System.out.println(adelesong.get(6));
+			break;
+			case "Title8": System.out.println(adelesong.get(7));
+			break;
+			case "Title9": System.out.println(adelesong.get(8));
+			break;
+			case "Title10": System.out.println(adelesong.get(9));
+			break;
+			case "Title11": System.out.println(adelesong.get(10));
+			break;
+			case "Title12": System.out.println(adelesong.get(11));
+			break;
+			case "Title13": System.out.println(adelesong.get(12));
+			break;
+			case "Title14": System.out.println(adelesong.get(13));
+			break;
+			case "Title15": System.out.println(adelesong.get(14));
+			break;
+			case "Title16": System.out.println(adelesong.get(15));
+			break;
+			case "Title17": System.out.println(adelesong.get(16));
+			break;
+			default: System.out.println("no such title with song exist");
+			}
+		break;
+		case "Fall Out Boys":
+			switch(song)
+			{
+			case "allTitle":
+				for(int i=0; i<FallOutBoys.size()-1; i++)
+				{
+					System.out.println(FallOutBoys.get(i));
+				}
+			break;
+			case "Title1": System.out.println(FallOutBoys.get(0));
+			break;
+			case "Title2": System.out.println(FallOutBoys.get(1));
+			break;
+			case "Title3": System.out.println(FallOutBoys.get(2));
+			break;
+			case "Title4": System.out.println(FallOutBoys.get(3));
+			break;
+			case "Title5": System.out.println(FallOutBoys.get(4));
+			break;
+			case "Title6": System.out.println(FallOutBoys.get(5));
+			break;
+			case "Title7": System.out.println(FallOutBoys.get(6));
+			break;
+			case "Title8": System.out.println(FallOutBoys.get(7));
+			break;
+			case "Title9": System.out.println(FallOutBoys.get(8));
+			break;
+			case "Title10": System.out.println(FallOutBoys.get(9));
+			break;
+			case "Title11": System.out.println(FallOutBoys.get(10));
+			break;
+			case "Title12": System.out.println(FallOutBoys.get(11));
+			break;
+			case "Title13": System.out.println(FallOutBoys.get(12));
+			break;
+			case "Title14": System.out.println(FallOutBoys.get(13));
+			break;
+			case "Title15": System.out.println(FallOutBoys.get(14));
+			break;
+			case "Title16": System.out.println(FallOutBoys.get(15));
+			break;
+			case "Title17": System.out.println(FallOutBoys.get(16));
+			break;
+			default: System.out.println("no such title with song exist");
+			}
+		break;
+		case "Bridge to Grace":
+			switch(song)
+			{
+			case "allTitle":
+				for(int i=0; i<BridgetoGrace.size()-1; i++)
+				{
+					System.out.println(BridgetoGrace.get(i));
+				}
+			break;
+			case "Title1": System.out.println(BridgetoGrace.get(0));
+			break;
+			case "Title2": System.out.println(BridgetoGrace.get(1));
+			break;
+			case "Title3": System.out.println(BridgetoGrace.get(2));
+			break;
+			case "Title4": System.out.println(BridgetoGrace.get(3));
+			break;
+			case "Title5": System.out.println(BridgetoGrace.get(4));
+			break;
+			case "Title6": System.out.println(BridgetoGrace.get(5));
+			break;
+			case "Title7": System.out.println(BridgetoGrace.get(6));
+			break;
+			case "Title8": System.out.println(BridgetoGrace.get(7));
+			break;
+			case "Title9": System.out.println(BridgetoGrace.get(8));
+			break;
+			case "Title10": System.out.println(BridgetoGrace.get(9));
+			break;
+			case "Title11": System.out.println(BridgetoGrace.get(10));
+			break;
+			case "Title12": System.out.println(BridgetoGrace.get(11));
+			break;
+			case "Title13": System.out.println(BridgetoGrace.get(12));
+			break;
+			case "Title14": System.out.println(BridgetoGrace.get(13));
+			break;
+			case "Title15": System.out.println(BridgetoGrace.get(14));
+			break;
+			case "Title16": System.out.println(BridgetoGrace.get(15));
+			break;
+			case "Title17": System.out.println(BridgetoGrace.get(16));
+			break;
+			default: System.out.println("no such title with song exist");
+			}
+		break;
+		default:
+			System.out.println("Artist is not included in playlist");
+			}
+		
+	}
+
+}

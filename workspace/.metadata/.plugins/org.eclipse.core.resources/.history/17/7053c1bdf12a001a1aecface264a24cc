@@ -1,0 +1,36 @@
+package SarjilJavaClass;
+
+
+
+
+public class ActionItem_12_31 {
+//Q7. Using Switch Method Create a program where you have an artist(ex. Adele/Fall Out Boys/Bridge to Grace) 
+		//and List of songs/track. it should contain 17 songs/tracks. 
+		//You should modify the script in order to achieve the following in each run
+		//-Print all the songs/tracks.
+	 	//-Print Only songs/track 15  
+	 	//-Print Only songs/track 19
+	
+	public static void main(String[] args) {
+		
+	
+		
+	}
+	
+	String adeleSong;
+	
+	
+	public void artist (String artist){
+		String songTrack ;
+		
+		switch (artist){
+		
+		case Adele:
+			songTrack = adeleSong;
+			
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package RahulSelenium.SeleniumPractice;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+/**
+ * Hello world!
+ *
+ */
+public class FacebookHomePage 
+{
+   WebDriver driver;
+   
+   public FacebookHomePage (WebDriver driver)
+   {
+	   this.driver = driver;
+   }
+   
+   @FindBy (xpath ="//input[@id='email']")
+	WebElement email;
+   
+   
+   
+   public WebElement emailId() {
+	   return email;
+   }
+}

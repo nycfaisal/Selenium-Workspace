@@ -1,0 +1,21 @@
+package SarjilJavaClass;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+//Q4. Create an automation to handle username and password in your script where you are unable to
+//Inspect the element. You can use the same url we have used in class.
+public class ActionItem01_16 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "//Users//faisalmohammad//Documents//chromedriver 2");
+		WebDriver driver = new ChromeDriver();
+		//handling the login (username:password@URL)
+		driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
+		//verifying the congratz Text
+		String PMS = driver.findElement(By.xpath("//*[@id='content']//p")).getText();
+		System.out.println(PMS);
+	}
+
+}

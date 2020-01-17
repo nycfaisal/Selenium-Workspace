@@ -1,0 +1,27 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FacebookSignup {
+
+	public static void main(String[] args) {
+		
+		
+		//initialize chromedriver
+		WebDriver driver = new ChromeDriver();
+		
+		//launch facebook.com
+		driver.get("https://www.facebook.com/");
+		
+		//xpath locator
+		//email,password;login
+		driver.findElement(By.xpath("“//input[@id=‘email’]")).sendKeys("vua@gmail.com");
+		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("easypassword");
+		driver.findElement(By.xpath("//input[cotains(@id='u_')]")).click();  //cannot verify in browser
+		
+		//filling up sign up queries
+		
+
+	}
+
+}

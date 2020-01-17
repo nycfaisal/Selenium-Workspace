@@ -1,0 +1,66 @@
+package SarjilJavaClass;
+
+public class ActionItem12_19 {
+
+	public static void main(String[] args) {
+		ActionItem12_19 obj = new ActionItem12_19();
+		String firstN = obj.getFirstName("faisal");
+		String lastN= obj.getLastName("Mohammad");
+		String collegeN = obj.getCollegeName("City College");
+		int StudentID = obj.getStudentID(765-897-8764);
+		int zipcode = obj.getZipcode(11218);
+		
+		System.out.println("My name is " + firstN + " " + lastN + " ");
+		System.out.println(collegeN);
+		
+
+	}
+	
+	//Q1: Create a program using Encapsulation where you have firstName, LastName,
+	//collegeName, studentID, zipcode. Print them all.
+	//Print the data at once in a sentence?
+	
+	private String firstName;
+	private String lastName;
+	private String collegeName;
+	private int studentID;
+	private int zipcode;
+	
+	//get methods
+	
+	public String getFirstName (String newValue){
+		return (newValue);
+	}
+	public String getLastName (String newValue){
+		return (newValue);
+	}
+	public String getCollegeName (String newValue){
+		return (newValue);
+	}
+	public int getStudentID (int newValue){
+		return (newValue);
+	}
+	public int getZipcode (int newValue){
+		return (newValue);
+	}
+	
+	//set methods
+	public void setFirstName (String newValue){
+		newValue = firstName;
+	}
+	public void setLastName (String newValue){
+		newValue = lastName;
+	}
+	public void setCollegeName (String newValue){
+		newValue = collegeName;
+	}
+	public void setStudentID (int newValue){
+		newValue = studentID;
+	}
+	public void setZipcode (int newValue){
+		newValue = zipcode;
+	}
+	
+
+
+}

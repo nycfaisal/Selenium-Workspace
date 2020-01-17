@@ -1,0 +1,18 @@
+
+public class LoopExercise {
+	
+	public static void mian(String [] args)
+	{
+		
+	}
+
+	
+	//queston one: Write a program to print numbers from 1 to 10.
+	public void poblemOne()
+	{
+		for (int i=0; i<=10; i++)
+		{
+			System.out.println(i);
+		}
+	}
+}

@@ -1,0 +1,22 @@
+package SarjilJavaClass;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ReadingExcel {
+
+	public static void main (String [] args) throws IOException
+	{
+		File xlfile = new File ("/Users/faisalmohammad/Desktop/forcoding.xlsx");
+		FileInputStream xlFIS = new FileInputStream(xlfile);
+		
+		//xls = HSSF and xlsx =  XSSF
+		XSSFWorkbook workbook= new XSSFWorkbook(xlFIS);
+		
+		
+	}
+}
